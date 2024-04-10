@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+pillow = "*"
+jupyter = "*"
+opencv-python = "*"
+spacy = "*"
+jupyterlab = "*"
+chardet = "*"
+imutils = "*"
+flask = "*"
+pytesseract = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
